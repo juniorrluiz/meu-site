@@ -3,79 +3,143 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Antonio Luiz</title>
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap"
       rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
     />
   </head>
   <body>
     <header>
-      <div class="logo">Logo</div>
+      <a class="logo" href="#home"> < Aj > </a>
       <nav>
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Sobre</a>
+        <ul>
+          <li>
+            <a href="#sobre">Sobre</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projetos</a>
+          <li>
+            <a href="#projetos">Projetos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
+          <li>
+            <a href="#contato">Contato</a>
           </li>
         </ul>
       </nav>
     </header>
-    <div class="sobre"></div>
-    <div class="apresentacao">
-      <h1>Olá, eu sou o <span>Antonio</span>, mas podem me chamar de Junior</h1>
-      <p>Desenvolvedor Web</p>
-      <h4>aqui vou mostrar minhas techSkills</h4>
-    </div>
-    <div class="projetos">
-      <h5>estou construindo meu portifolio</h5>
-    </div>
-    <div class="contatoPai">
-      <div class="contato">
-        <h3>Contato</h3>
-        <h7
-          >Deixe seu recado e confira minhas redes. Vou adorar entrar em contato
-          com você!</h7
-        >
-        <div class="mb-3">
-          <textarea
-            class="form-control"
-            id="exampleFormControlTextarea1"
-            rows="1"
-            placeholder="Nome completo"
-          ></textarea>
+    <main>
+      <section id="home">
+        <div class="home">
+          <div class="textos">
+            <div class="texto1">
+              <h1>Antonio Luiz Junior</h1>
+            </div>
+            <div class="texto2">mas pode me chamar só de Junior :)</div>
+            <div class="texto3">
+              Full-stack Developer com foco em Front-End.
+            </div>
+            <div class="texto4">
+              Um programador “novato” com gigante vontade de aprender.
+            </div>
+          </div>
+          <img src="/assets/imagem.gif" alt="img cooding" />
         </div>
-        <div class="mb-3">
-          <input
-            type="email"
-            class="form-control"
-            id="exampleFormControlInput1"
-            placeholder="E-mail"
-          />
+      </section>
+      <section id="sobre">
+        <div class="sobreImg">
+          <img src="/assets/Junior Luiz.png" alt="" />
+          <div class="sobre">
+            <h3>Sobre mim.</h3>
+            <h7>
+              Meu nome é Antonio, tenho 25 anos e sou apaixonado por tecnologia
+              e programação desde muito novo.
+            </h7>
+            <br />
+            <h7>
+              Sou um programador que aproveita os desafios, atualmente estou
+              trabalhando como Desenvolvedor Full-Stack (gostando mais do Front
+              ¯¯\_(ヅ)_/¯, e me acostumando com o Back), na Capgemini e tenho 2
+              anos de experiência com essas tecnologias: HTML, CSS, TypeScript,
+              Angular, Java, ferramentas de versionamento e ágil.
+            </h7>
+            <br />
+            <h7>
+              Estou sempre buscando aprender mais e mais, e acredito que a
+              melhor forma de aprender é ensinando, por isso, estou sempre
+              disposto a ajudar e ensinar quem precisar.
+            </h7>
+          </div>
         </div>
-        <div class="mb-3">
-          <textarea
-            class="form-control"
-            id="exampleFormControlTextarea1"
-            rows="3"
-            placeholder="Deixe sua mensagem"
-          ></textarea>
+      </section>
+      <section id="projetos">
+        <div class="projetos">
+          <h5>estou construindo meu portifolio</h5>
+          <div class="cardsPai">
+            <div class="cards">
+              <img src="/assets/em-breve.png" alt="">
+            </div>
+            <div class="cards">
+              <img src="/assets/em-breve.png" alt="">
+            </div>
+            <div class="cards">
+              <img src="/assets/em-breve.png" alt="">
+            </div>
+          </div>
+            <div class="cardsPai">
+              <div class="cards">
+                <img src="/assets/em-breve.png" alt="">
+              </div>
+              <div class="cards">
+                <img src="/assets/em-breve.png" alt="">
+              </div>
+              <div class="cards">
+                <img src="/assets/em-breve.png" alt="">
+              </div>
         </div>
-      </div>
-      <div class="imagens">
-        <img class="github" src="/assets/github.png" alt="github">
-        <img src="/assets/linkedin.png" alt="linkedin">
-        <img src="/assets/email.png" alt="email">
-      </div>
-    </div>
+      </section>
+      <section id="contato">
+        <div class="contatoPai">
+          <div class="contato">
+            <h3>Contato</h3>
+            <h7
+              >Deixe seu recado e confira minhas redes. Vou adorar entrar em
+              contato com você!</h7
+            >
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="1"
+                placeholder="Nome completo"
+              ></textarea>
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Deixe sua mensagem"
+              ></textarea>
+            </div>
+          </div>
+          <div class="imagens">
+            <img class="github" src="/assets/github.png" alt="github" />
+            <img src="/assets/linkedin.png" alt="linkedin" />
+            <img src="/assets/email.png" alt="email" />
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
