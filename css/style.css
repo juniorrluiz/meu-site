@@ -20,20 +20,13 @@ header {
   backdrop-filter: saturate(180%) blur(5px);
 }
 
-.logo {
-  font-size: 2.5rem;
-  color: #7e39ce;
-  margin-left: -2.0625rem;
-  cursor: pointer;
-}
-
 .logoImg{
   height: 6.25rem;
   width: 6.25rem;
 }
 
-.logo:hover {
-  color: #5a2a92;
+.logoImg:hover {
+  opacity: 0.5;
   transition: 0s !important;
 }
 
@@ -165,4 +158,73 @@ h7{
 .cards img{
   width: 12.5rem !important;
   height: 12.5rem !important;
+}
+
+.imagens{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.9375rem;
+  flex-direction: column;
+}
+
+.imgCt{
+  width: 50px;
+  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 150px;
+}
+
+.imgCt:hover{
+  opacity: 0.5;
+  transition: 0s !important;
+}
+
+
+.contatoPai{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.9375rem;
+  flex-direction: column;
+}
+
+.form{
+  border-radius: 5px;
+  width: 21.875rem;
+  height: 1.875rem;
+  margin-left: -225px;
+}
+
+.botao{
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  border-color: #5a2a92;
+  background-color: #5a2a92;
+  color: white;
+}
+
+.formMsg{
+  border-radius: 5px;
+  width: 21.875rem;
+  height: 6.25rem;
+  margin-left: -225px;
+}
+
+.contato{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.9375rem;
+  flex-direction: row;
+  margin-top: 3.125rem;
+}
+
+.img{
+  display: flex;
+}
+
+p{
 }
