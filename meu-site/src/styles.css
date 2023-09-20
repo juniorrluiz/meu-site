@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: "Inter Tight", sans-serif !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.125rem;
+  background-color: #08070bf4;
+  backdrop-filter: saturate(180%) blur(5px);
+  color: #fff;
+}
+
