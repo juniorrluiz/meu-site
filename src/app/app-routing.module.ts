@@ -8,6 +8,8 @@ import { HomeComponent } from './components/home/home.component';
 const routes: Routes = [
 
   //rotas iniciais
+
+{path: '', component: HomeComponent},
 {path: 'home', component: HomeComponent},
 {path: 'sobre', component: SobreComponent},
 {path: 'projetos', component: ProjetosComponent},
