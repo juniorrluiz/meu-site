@@ -1,3 +1,7 @@
+#projetos {
+  height: 100vh;
+}
+
 @media (min-width: 769px) {
   /* Exemplo de ajuste para o cabeçalho */
   header {
@@ -77,6 +81,7 @@
 
   #projetos {
     padding-top: 7.123rem;
+    height: 100vh;
   }
 
   h5 {

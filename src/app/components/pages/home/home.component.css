@@ -1,5 +1,4 @@
 @media (min-width: 769px) {
-
   .home {
     display: flex;
     align-items: center;
@@ -77,5 +76,12 @@
   .texto4 {
     font-size: 1.12rem;
     font-weight: bold;
+  }
+}
+
+@media (min-width: 1500px) {
+  .textos {
+    margin-top: -14.25vw;
+    margin-left: -43.75vw;
   }
 }

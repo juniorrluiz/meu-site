@@ -1,3 +1,7 @@
+.contatoPai {
+  height: 100vh;
+}
+
 /* Estilos para telas maiores (computadores) */
 @media (min-width: 769px) {
   /* Exemplo de ajuste para o cabeçalho */
@@ -234,7 +238,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0.9375rem;
+    padding: 2.9575rem;
     flex-direction: column;
   }
 

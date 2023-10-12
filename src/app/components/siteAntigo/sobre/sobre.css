@@ -12,6 +12,10 @@ main {
   color: #fff;
 }
 
+#sobre {
+  height: 100vh;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -21,7 +25,6 @@ footer {
   backdrop-filter: saturate(180%) blur(5px);
   color: #fff;
 }
-
 
 /* Estilos para telas menores (como smartphones) */
 @media (max-width: 768px) {
@@ -145,7 +148,7 @@ footer {
     height: 7.5rem;
     backdrop-filter: saturate(180%) blur(5px);
   }
-  
+
   /* Ajustar o tamanho da imagem do logo */
   .logoImg {
     width: 150px; /* Ajuste o tamanho conforme necessário */
@@ -266,5 +269,4 @@ footer {
   h7 {
     font-size: 1.25rem;
   }
-
 }
