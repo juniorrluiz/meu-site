@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+  dataAtual = new Date();
+  anoAtual = this.dataAtual.getFullYear();
 }
